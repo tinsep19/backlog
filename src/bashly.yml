@@ -1,0 +1,14 @@
+name: backlog
+help: Backlog CLI
+version: 0.1.0
+
+environment_variables:
+- name: BACKLOG_CLI_CONFIG
+  default: $HOME/.backlog_cli/config.ini
+  help: Set your configuration file path. \$HOME/.backlog_cli/config.ini
+commands:
+- name: configure
+- name: users
+  commands:
+  - import: src/users_list_command.sh
+  - import: src/users_show_command.sh
