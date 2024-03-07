@@ -13,3 +13,6 @@ commands:
   - import: src/users_list_command.sh
   - import: src/users_show_command.sh
   - import: src/users_myself_command.sh
+- name: projects
+  commands:
+  - import: src/projects_list_command.sh
