@@ -16,6 +16,8 @@ commands:
 - name: projects
   commands:
   - import: src/projects_list_command.sh
+  - import: src/projects_show_command.sh
+  - import: src/projects_users_command.sh
 - name: space
   commands:
   - import: src/space_show_command.sh
